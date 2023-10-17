@@ -7,24 +7,14 @@
   font-family: 'Poppins', sans-serif;
 }
 
-body {
+
+/* body {
   background: black;
   color: antiquewhite;
+  margin: 0;
+  padding: 0;
+} */
 
-}
-
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 10%;
-  background: transparent;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
-}
 
 .logo {
   font-size: 25px;
@@ -39,7 +29,7 @@ body {
   text-decoration: none;
   font-weight: 500;
   margin-left: 35px;
-  transition: 3s;
+  transition: .3s;
 }
 
 .navbar a:hover,
@@ -53,6 +43,8 @@ body {
   display: flex;
   align-items: center;
   padding: 0 10%;
+  background: black;
+  color: antiquewhite;
 }
 
 .home-content {
@@ -186,7 +178,6 @@ btn-box a:nth-child(1) {
   width: 0;
   height: 100%;
   background: rgb(0, 242, 255);
-  ;
   z-index: -1;
   transition: .5s;
 
@@ -194,6 +185,10 @@ btn-box a:nth-child(1) {
 
 .home-sci a:hover::before {
   width: 100%;
+}
 
-
+@media screen and (max-width:600px) {
+  .btn-box {
+    margin-bottom: 100px;
+  }
 }
