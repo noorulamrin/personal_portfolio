@@ -239,7 +239,7 @@ btn-box a:nth-child(1) {
   .home-content h3 {
     font-size: 20px;
     font-weight: 700;
-    color: rgb(0, 170, 255);
+    /* color: rgb(0, 170, 255); */
   }
 
 }
